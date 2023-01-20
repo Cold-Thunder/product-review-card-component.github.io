@@ -39,19 +39,20 @@ main{
     margin:18px 0;
     line-height: 35px;
     font-size: 32px;
-    font-family:"Fraunces";
+    font-family:'Fraunces';
+    font-weight:bold;
 }
 .right .per{
     letter-spacing:5px;
     font-size: 14px;
     transform:scaleY(0.8);
     color:rgb(155,155,163);
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
 }
 .right .des{
-    font-size:16px;
+    font-size:14px;
     color:rgb(155,155,163);
-    font-family: 'Roboto';
+    font-family: 'Mar';
     line-height:22px;
 }
 .price{
@@ -59,8 +60,9 @@ main{
     display:flex;
     align-items: center;
     flex-wrap:wrap;
-    margin:10px 0;
+    margin:20px 0;
     transform:scaleY(0.9);
+    font-family:'Fraunces';
 }
 .price .pres-price{
     font-weight: bold;
@@ -80,8 +82,9 @@ main{
 .button button{
     width:98%;
     height:45px;
-    font-size:16px;
+    font-size:14px;
     font-weight:bold;
+    font-family:'Montserrat';
     color:white;
     background-color:rgb(61, 129, 104);
     border:none;
